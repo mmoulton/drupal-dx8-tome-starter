@@ -1,12 +1,16 @@
 {
-    "name": "drupal-tome/tome-project",
-    "description": "A starter project for Tome.",
+    "name": "mmoulton/drupal-dx8-tome-starter",
+    "description": "A starter project for sites using DX8 and Tome.",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
             "name": "Samuel Mortenson",
             "email": "samuel@mortenson.coffee"
+        },
+        {
+            "name": "Mike Moulton",
+            "email": "mike@meltmedia.com"
         }
     ],
     "minimum-stability": "dev",
@@ -15,16 +19,26 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "url": "https://bitbucket.org/cohesion_dev/dx8-module.git",
+            "type": "vcs"
+        },
+        {
+            "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git",
+            "type": "vcs"
         }
     ],
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.5",
-        "drupal/core": "~8.6",
-        "drush/drush": "^9.0.0",
-        "drupal/tome": "^1.0",
-        "drupal-tome/tome_drush": "dev-master"
+        "drupal/core": "~8.7",
+        "drush/drush": "^9.7.1",
+        "drupal/tome": "^1.2",
+        "drupal-tome/tome_drush": "dev-master",
+        "cohesion/dx8": "^5.5",
+        "cohesion/dx8-theme": "^5.5"
     },
     "scripts": {
         "symlink": "./scripts/symlink.sh",
