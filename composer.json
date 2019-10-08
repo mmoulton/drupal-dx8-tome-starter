@@ -38,8 +38,8 @@
         "drupal/claro": "^1.0",
         "drupal/tome": "^1.2",
         "drupal-tome/tome_drush": "dev-master",
-        "cohesion/dx8": "^5.5",
-        "cohesion/dx8-theme": "^5.5",
+        "cohesion/dx8": "^5.6",
+        "cohesion/dx8-theme": "^5.6",
         "drupal/admin_toolbar": "^1.27",
         "drupal/menu_item_extras": "^2.7",
         "drupal/menu_link_attributes": "^1.0"
